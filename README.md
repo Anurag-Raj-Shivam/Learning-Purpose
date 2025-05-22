@@ -1,5 +1,4 @@
 # Learning-Purpose
-Making it to add my codes
 class Chinri:
     def Behaviour(self,name,action):
         self.name=name

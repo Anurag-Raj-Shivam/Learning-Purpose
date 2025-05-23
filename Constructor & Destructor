@@ -1,0 +1,211 @@
+class Pokemon:
+    def __init__(self,name):
+        self.name=name
+        print(self.name, "I choose you")
+    def __del__(self):
+        print(self.name,"come back to ball")
+    def Names(self,power,week):
+        self.power=power
+        self.week=week
+    def fullline(self):
+        print("his", self.power," and his weekness is" , self.week)
+
+Fullla= Pokemon ("Charmender")
+Fullla.Names("Fire","Ice")
+Fullla.fullline()
+Fullla.__del__()
+        
+        
+
+
+
+class Pokemon:
+    def __init__(self,name):
+        self.name=name
+        print(self.name, "I choose you")
+    def __del__(self):
+        print(self.name, "come back to ball")
+    def Power(self,Type,weekness):
+        self.Type = Type
+        self.weekness = weekness
+    def fullline(self):
+        print ("He is" ,self.Type, "pokemon and he can't fight in", self.weekness)
+
+Line=Pokemon("Pikachu")
+Line.Power("Electric", "water")
+Line.fullline()
+Line.__del__()
+
+
+
+
+class Chinri:
+    def __init__(self,ids):
+        self.ids=ids
+        print("Our work started")
+    def __del__(self,ids):
+        print(self.ids,"Our work done")
+    def Behaviour(self,name,action):
+        self.name=name
+        self.action=action
+    def Wholesentence (self):
+        print("when she is", self.name,"she start", self.action, "me")
+
+Sim2=Chinri(7)
+Sim2.Behaviour("mad on me","souting")
+Sim2.Wholesentence()
+Sim2.__del__(id)
+
+
+
+
+
+class Dog:
+    
+    def __init__(self):                                        #__del__
+        print("our class is created")
+
+    def __del__(self):
+        print("our work is closed")
+    def nameaction(self, name, action):
+        self.name = name
+        self.action = action
+
+    def Wholeline(self):
+        print("My dog named", self.name, "is", self.action, "while we are out walking.")
+
+sum8 = Dog()
+sum8.nameaction("Drogo", "licking")
+sum8.Wholeline()
+sum8.__del__()
+
+
+
+
+
+class Dog:
+    
+    def __init__(self):                                        #__del__
+        print("our class is created")
+
+    def __del__(self):
+        print("our work is closed")
+    def nameaction(self, name, action):
+        self.name = name
+        self.action = action
+
+    def Wholeline(self):
+        print("My dog named", self.name, "is", self.action, "while we are out walking.")
+
+sum1 = Dog()
+sum1.nameaction("Drogo", "licking")
+sum1.Wholeline()
+
+sum2 = Dog()
+sum2.nameaction("Bruno", "barking")
+sum2.Wholeline()
+
+sum3 = Dog()
+sum3.nameaction("Munna", "watching")
+sum3.Wholeline()
+sum3.__del__()
+
+
+
+
+
+
+
+class Dog:
+    
+    def __init__(self):                                        #__init__
+        print("our class is created")
+        
+    def nameaction(self, name, action):
+        self.name = name
+        self.action = action
+
+    def Wholeline(self):
+        print("My dog named", self.name, "is", self.action, "while we are out walking.")
+
+sum4 = Dog()
+sum4.nameaction("Drogo", "licking")
+sum4.Wholeline()
+
+sum5 = Dog()
+sum5.nameaction("Bruno", "barking")
+sum5.Wholeline()
+
+sum6 = Dog()
+sum6.nameaction("Munna", "watching")
+sum6.Wholeline()
+
+
+#1st code only class & self
+
+class Heath:
+    def name(self, name, movie):
+        self.name=name
+        self.movie=movie
+    def fullline (self):
+        print("The charectar named" , self.name, "was in" , self.movie )
+
+Pin = Heath()
+Pin.name("Joker","The Batman")
+Pin.fullline()
+
+
+Pin = Heath()
+Pin.name("Grey","lover boy")
+Pin.fullline()
+
+
+Pin = Heath()
+Pin.name("Hilas","Hello Kitty")
+Pin.fullline()
+
+#2nd code Class self and construct
+
+class Atom:
+    def __init__(self, name):
+        self.name=name
+        print("Show name is", self.name)
+    def charcter(self,hero):
+        self.hero=hero
+        print(self.hero)
+
+A=Atom("DC Legends")
+A.charcter("Captain")
+
+
+A.charcter("Black")
+
+
+A.charcter("Firstrom")
+
+
+A.charcter("atom")
+
+A=Atom("DC Legends")
+A.charcter("Hawk")
+
+
+#3rd Code Class self and construct and destruction
+
+class Girl:
+    def __init__(self,value1):
+        self.value1=value1
+        print("I am sick so i want", self.value1)
+    def __del__(self, value2):
+        self.value2=value2
+        print("else i will", value2)
+    def action(self,acti, damki):
+        self.acti=acti
+        self.damki=damki
+    def line(self):
+        print(self.acti, "and", self.damki)
+
+Niks=Girl("a kiss")
+Niks.action("hug"," agree on whatever i say")
+Niks.line()
+Niks.__del__("slap you hit you and cut you in pieces and put you in fridge")

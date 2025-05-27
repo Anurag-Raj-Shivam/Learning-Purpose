@@ -1,0 +1,45 @@
+name = input('Enter your name-')
+
+while name== '':
+    print('this name is not valid')
+    name = input('Enter your name-')
+    
+else:
+    print('Your name is', name)
+
+name2 = input('Enter your last name-')
+
+while name2== '':
+    print('this name is not valid')
+    name2 = input('Enter your last name-')
+    
+else:
+    print('Your last name is', name2)
+
+print("Your full name is", name, name2)
+
+
+age = int(input ('Enter you age-'))
+
+while age<16:
+    print ('You are underage for marraige')
+    age=int(input ('Enter you age-'))
+
+else:
+    print('Your age is', age)
+    print('Congo! you are now flower')
+
+print('Your full name is', name, name2, 'and you are', age, 'years old')
+
+
+day = int(input("Enter the day (within the next 10 days) when you plan to have sex:"))
+
+while day>0 and day<10:
+    print(("we'll have suhagraat on", day))
+    day = int(input("Enter under 10 days you need prepration to have sex:"))
+
+else:
+    print("I need divorse")
+
+
+    
